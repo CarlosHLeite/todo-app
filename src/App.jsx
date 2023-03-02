@@ -1,6 +1,6 @@
 import './App.css'
-import { Outlet } from 'react-router-dom'
-import Navbar from './components/Navbar'
+
+import { Header, Input } from './components'
 import { useThemeContext } from './context/ThemeContext'
 
 
@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div className={`App ${theme === 'dark' ? "dark-theme": ""}`}>
-      <Navbar />
-      <Outlet />
+      <Header />
+     
     </div>
   )
 }

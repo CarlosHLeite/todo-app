@@ -1,0 +1,16 @@
+:root {
+    --main-bg: #f2f2f2;
+    --dark-bg: #171823;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg);
+}

@@ -1,0 +1,30 @@
+.header {
+    height: 300px;
+    background-image: url('../../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container {
+    max-width: 375px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 70px;
+}
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .header {
+        background-image: url('../../assets/background-mobile.jpg');
+    }
+
+    .header-container {
+      max-width: 540px;
+    }
+  }
