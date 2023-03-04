@@ -1,0 +1,57 @@
+.item-container {
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1px;
+  
+}
+
+.item-wrapper {
+    width: 327px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.text-output {
+    width: 234px;
+    height: 48px;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.done-btn {
+    margin-left: 14px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-btn {
+    margin-right: 14px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 600px) {
+
+    .item-wrapper {
+        width: 540px;
+    }
+
+    .text-output {
+        width: 490px;
+        font-size: 18px;
+    }
+  
+}

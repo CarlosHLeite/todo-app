@@ -1,6 +1,6 @@
 import Header from "./header";
-import Input from "./Input";
+import InputContainer from "./InputContainer";
 
 
 
-export { Header, Input }
+export { Header, InputContainer }

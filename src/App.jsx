@@ -1,6 +1,7 @@
 import './App.css'
 
-import { Header, Input } from './components'
+import { Header, InputContainer } from './components'
+import TodoItem from './components/todoItem'
 import { useThemeContext } from './context/ThemeContext'
 
 
@@ -12,7 +13,12 @@ function App() {
   return (
     <div className={`App ${theme === 'dark' ? "dark-theme": ""}`}>
       <Header />
-     
+      <InputContainer/>
+
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
+      <TodoItem />
     </div>
   )
 }

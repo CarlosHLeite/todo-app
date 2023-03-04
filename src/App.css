@@ -6,5 +6,4 @@
 .dark-theme,
 .dark-theme a {
   background-color: var(--dark-bg);
-  color: #fff;
 }
